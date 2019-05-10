@@ -1652,11 +1652,15 @@ td {
         background: #e7f5ff;
       }
     
+      body {
+        color: #212529;
+      }
+    
       a {
         color: #343a40;
       }
     
       a:hover {
-        color: #495057;
+        color: #4c6ef5;
       }
     
