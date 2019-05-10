@@ -1645,18 +1645,18 @@ td {
 }
 
       .main {
-        background: #d0ebff;
+        background: #e7f5ff;
       }
     
       body {
-        background: #d0ebff;
+        background: #e7f5ff;
       }
     
       a {
-        color: #ffd43b;
+        color: #343a40;
       }
     
       a:hover {
-        color: #20c997;
+        color: #495057;
       }
     
