@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Jshi</title>
+<title>Test | Jshi</title>
 <link rel="shortcut icon" href="https://hiies.cn/favicon.ico?v=1557550320550">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://hiies.cn/styles/main.css">
@@ -93,44 +93,69 @@
   </div>
 </div>
 
-    
-        
-
-<div class="archives-container">
-  
-    <h2 class="year">2019</h2>
-    
       
-        <article class="post">
-          <a href="https://hiies.cn/post/test">
+        <div class="post-detail">
+          <article class="post">
             <h2 class="post-title">
               Test
-              <small>2019-05-11</small>
             </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://hiies.cn/post/hello-world">
-            <h2 class="post-title">
-              Hello World
-              <small>2019-05-10</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-  
-</div>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-05-11 ·
+              </time>
+              
+                <a href="https://hiies.cn/tag/SPE" class="post-tags">
+                  # SPE
+                </a>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>这是一个测试</p>
+<!-- more -->
 
+            </div>
+          </article>
+        </div>
     
-        <div class="pagination-container">
-  
-  
-</div>
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://hiies.cn/post/hello-world">
+              <h3 class="post-title">
+                Hello World
+              </h3>
+            </a>
+          </div>  
+        
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '42329a184d2c1bace0be',
+    clientSecret: '682d22f2bfb4dda87041b5789a9f0ff5485a28c7',
+    repo: 'hiie.github.io',
+    owner: 'hiie',
+    admin: ['hiie'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
     
         <div class="site-footer">
   Created by ShiJie | Powered by Gridea
