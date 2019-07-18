@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hiies.cn</id>
     <title>Jshi</title>
-    <updated>2019-07-18T01:46:42.710Z</updated>
+    <updated>2019-07-18T01:56:32.092Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hiies.cn"/>
     <link rel="self" href="https://hiies.cn/atom.xml"/>
@@ -10,15 +10,6 @@
     <logo>https://hiies.cn/images/avatar.png</logo>
     <icon>https://hiies.cn/favicon.ico</icon>
     <rights>All rights reserved 2019, Jshi</rights>
-    <entry>
-        <title type="html"><![CDATA[测试]]></title>
-        <id>https://hiies.cn/post/ce-shi</id>
-        <link href="https://hiies.cn/post/ce-shi">
-        </link>
-        <updated>2019-07-18T01:46:33.000Z</updated>
-        <content type="html"><![CDATA[<p>测试</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[模式复原]]></title>
         <id>https://hiies.cn/post/mo-shi-fu-yuan</id>
