@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hiies.cn</id>
     <title>Jshi</title>
-    <updated>2019-12-04T09:16:17.337Z</updated>
+    <updated>2019-12-04T09:16:49.594Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hiies.cn"/>
     <link rel="self" href="https://hiies.cn/atom.xml"/>
@@ -263,7 +263,9 @@
         <link href="https://hiies.cn/post/TA-TL">
         </link>
         <updated>2019-05-13T03:57:35.000Z</updated>
-        <content type="html"><![CDATA[<p>过渡高度和过渡高度层简单的讲，就是飞机在起飞和进近过程中高度（表）基准值转换的一个空间。这个过渡空间分成上下两个面，离地面近的这个面（下面）我们叫做“过渡高度”；离地面远的面（上面）我们叫做“过渡高度层”；过渡高度和过渡高度层之间，我们叫“过渡夹层”。</p>
+        <content type="html"><![CDATA[<center>转</center>
+<br>
+过渡高度和过渡高度层简单的讲，就是飞机在起飞和进近过程中高度（表）基准值转换的一个空间。这个过渡空间分成上下两个面，离地面近的这个面（下面）我们叫做“过渡高度”；离地面远的面（上面）我们叫做“过渡高度层”；过渡高度和过渡高度层之间，我们叫“过渡夹层”。  
 <figure data-type="image" tabindex="1"><img src="https://hiies.cn/post-images/1557719898573.jpg" alt=""></figure>
 <p>我们知道，为了让所有巡航的飞机有一样的零点高度，我们会把高度表设置为标准气压，就是1013.2百帕或者29.92英寸汞柱，所有的飞行高度以QNE为基准面。而在飞机起降过程中，我们的高度表使用的是修正海压高QNH。所以，飞机起飞离场加入航线或脱离航线进场着陆，就需要进行修正海压高与标准气压高间的转换，即进行基准气压面的调整。为了统一转换的时间，所以设定了过渡高度和过渡高度层：过渡高度TA（Transition Altitude）是以修正海压QNH为基准面在机场区域内划定的一个气压高度，在这个高度（含）以下，所有飞机按修正海压高飞行。 过渡高度层TL（Transition Level）是在过渡高度以上可以利用的最低飞行高度层（以QNE为基准面的飞行高度），在这个高度（含）以上，所有飞机按标准气压高飞行。过渡夹层（Transition Layer）是指过渡高与过渡高度层之间的空间（即垂直间隔），它随修正海压的变化而变化，但在任何情况下必须在300~600米。</p>
 <p>在了解了过渡高度和过渡高度层的定义后，我们来看高度表基准值转换的时机：<br>
