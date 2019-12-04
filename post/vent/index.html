@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>A320电子舱通风的几种形态 | Jshi</title>
-<link rel="shortcut icon" href="https://hiies.cn/favicon.ico?v=1575449210026">
+<link rel="shortcut icon" href="https://hiies.cn/favicon.ico?v=1575449647279">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://hiies.cn/styles/main.css">
 
@@ -38,7 +38,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://hiies.cn">
-  <img class="avatar" src="https://hiies.cn/images/avatar.png?v=1575449210026" alt="">
+  <img class="avatar" src="https://hiies.cn/images/avatar.png?v=1575449647279" alt="">
   </a>
   <h1 class="site-title">
     Jshi
@@ -112,32 +112,32 @@
             <div class="post-content">
               <p>  电子舱通风形态是一个非常复杂的问题，原因有这么几个：1. 本身系统复杂，活门很多；2. 送风扇和排风扇按钮与风扇工作与否之间并不是一一对应的逻辑，而是牵扯到了其他活门，人机界面非常不直观；3. FCOM里的说明和解释没有涉及到原因，而且法国人的逻辑原因导致哪些话说的非常难以理解。下面，我试着用一种深入浅出的一步步推演的方式来介绍这部分的内容。</p>
 <p>  还是那句话，要想了解一个系统，首先要了解它是做什么的，根据最基本的需求构建出一个最简单的结构，然后一点点往上添加部件，了解各个部件的逻辑和作用，逐渐形成一个整体，这样才能从最直观的方式记忆这个系统。那么，就电子舱通风而言，基本需求很简单，就是用风吹电子设备，带走热量。那首先我们构建一个最基本的结构来实现吹风的效果。</p>
-<p><img src="https://hiies.cn/post-images/1557741036770.jpg" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://hiies.cn/post-images/1557741036770.jpg" alt=""></figure>
 <p>  上图就是最基本的结构，两个风扇，两个活门，从外界抽风到电子设备，再排出去。这基本上就是开路形态的结构了，只是还要加上一部分从驾驶舱顶板吸入空调空气（用与冷却顶板、跳开关面板和系统控制面板）。那让我们把它加上去，看看完整的开路结构是什么样子：</p>
-<p><img src="https://hiies.cn/post-images/1557741041619.jpg" alt=""></p>
+<figure data-type="image" tabindex="2"><img src="https://hiies.cn/post-images/1557741041619.jpg" alt=""></figure>
 <p>  那开路形态在什么时候用呢，在地面天气比较热的时候。为什么是在地面，因为在空中开了就是释压了啊，进气扇根本抽不进外界空气的，气都往外跑了。那为什么是天气热的时候呢，很简单，你在家天气冷的时候可以不开窗户，热的时候不开窗户那还不得闷死么。</p>
 <p>  理解了开路形态的逻辑，那闭路形态就很容易能想到了，反过来嘛，也就是天气不热的时候，还有空中的时候。既然不能通过外界空气来冷却电子设备，那就要想别的办法。空客还是很聪明的，设计了一个叫做蒙皮热交换器的东西。外界比较凉快，那跟外界接触的蒙皮就就比较凉快，那么让内部空气贴着蒙皮走一圈就能够被冷却。</p>
-<p><img src="https://hiies.cn/post-images/1557741063534.jpg" alt=""></p>
+<figure data-type="image" tabindex="3"><img src="https://hiies.cn/post-images/1557741063534.jpg" alt=""></figure>
 <p>  此时的蒙皮进气活门和排气活门都是关闭的。但空客又考虑到如果热交换器效率不行，冷却不下来怎么办呢？于是又增加了旁通部分。</p>
 <p>  这里要说明一件事情，电子舱通风并不是从一个口把风吹进整个电子舱再从一个口排出去，而是一个管子进来然后分成很多管子通向每一个设备，然后从每个设备出来合并成一个管子排出去。可以理解为每个设备都是被盒子包裹起来的。这些盒子以外剩余的空间还是很大的，工程师都是可以进去做维修的。</p>
 <p>  那么整个电子舱除了这些盒子里面有通风，剩余的空间也是有空气的，而且一般来说，这些地方因为没有发热设备，温度比盒子里的要低。所以，这就提供了一种旁通的方式，可以将热空气通过货舱底部排走，再从剩余空间抽取温度相对较低的空气进入通风管道，从而增加了蒙皮热交换器的效率。所以，完整的闭路形态是包括了蒙皮热交换器和旁通部分的形态：</p>
-<p><img src="https://hiies.cn/post-images/1557741100897.jpg" alt=""></p>
+<figure data-type="image" tabindex="4"><img src="https://hiies.cn/post-images/1557741100897.jpg" alt=""></figure>
 <p>  上图中，中间的AVIONICS EQPT就是被盒子包裹着的电子设备，而旁通部分的AVIONIC BAY则是电子舱里盒子以外的剩余空间。</p>
 <p>  而如果在空中，闭路形态还不能满足冷却的需求该怎么办呢？既然不能通过打开蒙皮进气活门来增加进气（会释压从而逆流），那就只能增加热空气的排出了。但毕竟外界气压太低，所以设计了将蒙皮出口活门打开一半（其实是打开活门中间的一个小翻门）的中间形态，用于在空中温度较高时候的电子舱通风：</p>
-<p><img src="https://hiies.cn/post-images/1557741113506.jpg" alt=""></p>
+<figure data-type="image" tabindex="5"><img src="https://hiies.cn/post-images/1557741113506.jpg" alt=""></figure>
 <p>  总结一下，正常的构型就是开路、闭路、中间这三种。那具体什么时候会改变构型呢？法国人的诡异逻辑再次出现了，什么高于/低于临界值，地面和空中不同，在温度上升或下降时还不一样，说得很复杂。其实原则就两个，一是形态选择的原则。如果蒙皮热交换器能够满足冷却要求，也就是说外界温度比较低，就用它来冷却，这时候就是闭路状态。如果满足不了，就直接用外界空气来冷却，这就是开路状态。中间形态就是将一部分在交换器中循环的空气排出，这就会从电子舱里引入更多的空气以满足温度要求。二是临界温度的原则，就是春捂秋冻，温度上升的时候到高一点的临界温度再转换，温度下降的时候到低一点的临界温度再转换。 至于设计原因，是为了防止如果只有一个临界温度，当外界温度在临界值上下波动时，活门时开时关不稳定，易损坏。</p>
 <p>  说完正常构型再来看非正常构型。FCOM里只说了当送风扇和排风扇被超控后，通风系统会处于一种闭路状态，然后什么风扇工作什么不工作，但却没有说明为什么要超控，什么时候会跳出警告。如果不理解原因，就无法理解这两个按钮对应的构型。</p>
 <p>  从AMM中可以看到，整个通风系统里，有3个压力传感器（压力开关），2个温度传感器，1个烟雾探测器：</p>
-<p><img src="https://hiies.cn/post-images/1557741130808.jpg" alt=""></p>
+<figure data-type="image" tabindex="6"><img src="https://hiies.cn/post-images/1557741130808.jpg" alt=""></figure>
 <p>  所以不正常情况就有三类：低压、超温、烟雾。至于为什么没有超压，这个我也不知道，可能电子舱的结构和风扇的功率不可能造成超压吧。总的原理是，当探测器探测到低压或超温时，通风系统会要求超控送风扇或排风扇，进入闭路形态，关闭旁通活门，并且引入一个新的空气来源：从空调管道。这是为了让尽量多的空气在闭路中循环，以提高压力或降低温度。</p>
 <p>  那为什么有时候要超控送风扇，有时候要超控排风扇呢，导致的构型有区别么？这个原因在FCOM里没有说，在AMM里找得到。压力传感器在电子设备上游有2个，下游有1个。如果是上游传感器探测到低压，“VENT BLOWER FAULT”警告出现，要求超控送风扇。此时，除了造成上述闭路构型外，送风扇停转，排风扇继续转动，这是因为在上游低压的情况下，空调管道的压力是大于送风扇处的，那么送风扇与空调管道的单向活门就会关闭，所以送风扇转不转根本没有意义。直到整个管道内的压力达到与空调管道的相同时，单向活门才会重新打开。而如果是下游压力低，“VENT EXTRACT FAULT”警告出现，要求超控排风扇，此时上游这个单向活门不会收影响，所以送风扇可以继续转。</p>
-<p><img src="https://hiies.cn/post-images/1557741138912.jpg" alt=""></p>
+<figure data-type="image" tabindex="7"><img src="https://hiies.cn/post-images/1557741138912.jpg" alt=""></figure>
 <p>  如果是温度传感器探测到高温，与上游的压力传感器探测到低压情况相同，都要求超控送风扇。因为都是在上游，都是需要从空调引入空气，当然，这里更需要的是空调引气的低温吧。</p>
 <p>  至于烟雾情况，为了尽量减小影响范围以及快速排烟，系统直接从空调管道引气，冷却电子设备后从蒙皮出口活门排除机外。考虑到空中外界压力低的问题，蒙皮排气活门只是部分打开。此时系统会要求超控两个风扇。送风扇上游已经没有空气了，所以它也没有必要转了，而排风扇可以帮助尽快排烟，所以继续转。</p>
 <p>  所以实际上超控送风扇、超控排风扇和两个都超控对应的是三种逻辑，而不是直接对应某个部件：</p>
-<p><img src="https://hiies.cn/post-images/1557741439785.png" alt=""></p>
+<figure data-type="image" tabindex="8"><img src="https://hiies.cn/post-images/1557741439785.png" alt=""></figure>
 <p>  AMM中的示意图：</p>
-<p><img src="https://hiies.cn/post-images/1557741453526.jpg" alt=""></p>
+<figure data-type="image" tabindex="9"><img src="https://hiies.cn/post-images/1557741453526.jpg" alt=""></figure>
 <p align="right">From 3U-TEAM-7UP （川航飞行七中队）</p> 
             </div>
           </article>
