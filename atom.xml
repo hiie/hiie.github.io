@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hiies.cn</id>
     <title>Jshi</title>
-    <updated>2019-12-04T09:12:30.978Z</updated>
+    <updated>2019-12-04T09:15:47.023Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hiies.cn"/>
     <link rel="self" href="https://hiies.cn/atom.xml"/>
@@ -190,7 +190,7 @@
         <updated>2019-06-17T08:03:32.000Z</updated>
         <content type="html"><![CDATA[<center>FCOM</center>
 <br>
-**1. 由于FCU 所选高度变化引起的复原**
+<p><strong>1. 由于FCU 所选高度变化引起的复原</strong></p>
 <figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/hiie/Pic/master/img/20190617150805.png" alt=""></figure>
 <hr>
 <p><strong>2. 由于NAV 方式失效（人工或自动）引起的复原</strong></p>
