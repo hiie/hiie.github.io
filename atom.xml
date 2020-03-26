@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hiies.cn</id>
     <title>Jshi</title>
-    <updated>2020-03-26T13:42:16.266Z</updated>
+    <updated>2020-03-26T13:45:05.629Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hiies.cn"/>
     <link rel="self" href="https://hiies.cn/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://hiies.cn/post/delivery/">
         </link>
         <updated>2019-12-04T08:56:51.000Z</updated>
-        <content type="html"><![CDATA[<center>转</center>
+        <content type="html"><![CDATA[<center>VIA</center>
 <br>
 快递单一般分为两层。每次签收了快递的时候，你拿着你的包裹，快递员撕掉回执单，你满怀期待，准备回屋里打开包裹，看看你的衣服/书/数码产品/成人玩具。但你有没有注意过，其实回执单的背面也是有写东西的。
 究竟写了些什么，作为一个快递的签收者，你不知道，也不应该知道。
@@ -94,7 +94,7 @@
         <link href="https://hiies.cn/post/free/">
         </link>
         <updated>2019-12-04T08:50:21.000Z</updated>
-        <content type="html"><![CDATA[<center>转</center>
+        <content type="html"><![CDATA[<center>VIA</center>
 <br>
 我对免费与收费服务的区别和界限困惑过很久，然后看到了一句令我茅塞顿开的话：
 <p>如果商家为你提供免费服务，那你就不是他们的客户，而是他们的产品。</p>
@@ -144,7 +144,7 @@
         <link href="https://hiies.cn/post/vent/">
         </link>
         <updated>2019-05-13T09:48:52.000Z</updated>
-        <content type="html"><![CDATA[<center>转</center>
+        <content type="html"><![CDATA[<center>VIA</center>
 <br>
 电子舱通风形态是一个非常复杂的问题，原因有这么几个：1. 本身系统复杂，活门很多；2. 送风扇和排风扇按钮与风扇工作与否之间并不是一一对应的逻辑，而是牵扯到了其他活门，人机界面非常不直观；3. FCOM里的说明和解释没有涉及到原因，而且法国人的逻辑原因导致哪些话说的非常难以理解。下面，我试着用一种深入浅出的一步步推演的方式来介绍这部分的内容。
 <p>还是那句话，要想了解一个系统，首先要了解它是做什么的，根据最基本的需求构建出一个最简单的结构，然后一点点往上添加部件，了解各个部件的逻辑和作用，逐渐形成一个整体，这样才能从最直观的方式记忆这个系统。那么，就电子舱通风而言，基本需求很简单，就是用风吹电子设备，带走热量。那首先我们构建一个最基本的结构来实现吹风的效果。</p>
@@ -195,7 +195,7 @@
         <link href="https://hiies.cn/post/TA-TL/">
         </link>
         <updated>2019-05-13T03:57:35.000Z</updated>
-        <content type="html"><![CDATA[<center>转</center>
+        <content type="html"><![CDATA[<center>VIA</center>
 <br>
 过渡高度和过渡高度层简单的讲，就是飞机在起飞和进近过程中高度（表）基准值转换的一个空间。这个过渡空间分成上下两个面，离地面近的这个面（下面）我们叫做“过渡高度”；离地面远的面（上面）我们叫做“过渡高度层”；过渡高度和过渡高度层之间，我们叫“过渡夹层”。  
 <figure data-type="image" tabindex="1"><img src="https://hiies.cn/post-images/1557719898573.jpg" alt="" loading="lazy"></figure>
